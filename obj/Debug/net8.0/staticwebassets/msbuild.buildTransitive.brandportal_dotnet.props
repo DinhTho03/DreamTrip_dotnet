@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\brandportal_dotnet.props" />
+</Project>

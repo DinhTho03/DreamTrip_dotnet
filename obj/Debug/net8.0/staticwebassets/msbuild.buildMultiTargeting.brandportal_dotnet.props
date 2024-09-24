@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\brandportal_dotnet.props" />
+</Project>
