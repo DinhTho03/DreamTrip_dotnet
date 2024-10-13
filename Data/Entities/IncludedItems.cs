@@ -1,7 +1,7 @@
 ﻿using brandportal_dotnet.Data.Utils;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-namespace TravelItineraryProject.Data.Entities
+namespace brandportal_dotnet.Data.Entities
 {
     [BsonConllection("includedItems")]
     public class IncludedItems

@@ -2,7 +2,7 @@ namespace brandportal_dotnet.Models;
 
 public class LookupDto
 {
-    public int Id { get; set; }
+    public string Id { get; set; }
     public required string Name { get; set; }
     public required string Code { get; set; }
 }

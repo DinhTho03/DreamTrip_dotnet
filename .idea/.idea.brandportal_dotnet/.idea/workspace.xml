@@ -9,45 +9,153 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde81047-81bf-480c-896e-030e74ce4e52" name="Changes" comment="" />
+    <list default="true" id="fde81047-81bf-480c-896e-030e74ce4e52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Contracts/Account/CredentialDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameNotificationCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameRewardCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameRewardDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameRewardProgramDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameRewardUpdateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameWinRateCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameWinRateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/RewardDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/User/ListUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTourismGroup/PagePlaceTourismDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/User/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/GameRate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/LoyAccumulationProgram.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/LoyNotification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/LoyReward.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/LoyRewardAccumulation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/LoyRewardProgramGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/PlaceTourism.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/PlaceTourismCategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/PlaceTourismGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/DatabaseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/DatabaseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/Faq/PageFaqCreateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/Faq/PageFaqCreateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/Faq/PageFaqDetailDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/Faq/PageFaqDetailDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/FaqGroup/PageFaqGroupCreateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/FaqGroup/PageFaqGroupCreateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/PageFaqDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/PageFaqDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/PageFaqGroupDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/PageFaqGroupDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Faq/PageFaqGroupTitleDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Admin/Faq/PageFaqGroupTitleDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Models/LookupDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Models/LookupDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/IFaqGroupController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Addresses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Addresses.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Categories.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Categories.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Comments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Comments.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/DayItinerary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/DayItinerary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/ExcludedItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/ExcludedItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Favorites.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Favorites.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/GoogleMapsAddress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/GoogleMapsAddress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Images.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Images.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/IncludedItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/IncludedItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Ratings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Ratings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/ServicePlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/ServicePlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/TripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/TripPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IService/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IService/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/MongoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/MongoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brandportal_dotnet.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/brandportal_dotnet.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brandportal_dotnet.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/brandportal_dotnet.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/brandportal_dotnet.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/brandportal_dotnet.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8abdcbb5fcc64df6970a7bc170085c0b1de908/22/f522d01d/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/GroupJoin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/Join.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/SelectMany.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/DateTime.Windows.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05490158a17440cdbb77cdfa1390ba025200/44/2612041c/FirebaseStorageOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6bf946539f1b4beb8f11400f7a2ff1f039000/55/1a5fbc5b/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8abdcbb5fcc64df6970a7bc170085c0b1de908/22/f522d01d/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bd1154a8c2834548940500226b7d74b784908/da/2a192983/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3edec1170e48a0a2478d8743508635c8e910/98/ecf961a1/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8a429c7bc93ed15716a8e6a3f7b60dce9b59ba84efe83f6baace98a9601c89/EntityNotFoundException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/95b9fc3230762aa0138ca76a6816a9a6118954a12f5255d4a98e97336d8d/UserFriendlyException.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mUw7hnxqlCpF0TvA16OKB7nGAv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.brandportal_dotnet: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.brandportal_dotnet: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.brandportal_dotnet: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.brandportal_dotnet: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.brandportal_dotnet: https.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ADMIN\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ADMIN\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\ADMIN\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ADMIN\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ADMIN\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ADMIN\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.brandportal_dotnet: http">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.brandportal_dotnet: https">
     <configuration name="brandportal_dotnet: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/brandportal_dotnet.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -103,6 +211,23 @@
       <option name="presentableId" value="Default" />
       <updated>1727144299772</updated>
       <workItem from="1727144301690" duration="559000" />
+      <workItem from="1727248832438" duration="1861000" />
+      <workItem from="1728020252445" duration="1271000" />
+      <workItem from="1728040149643" duration="625000" />
+      <workItem from="1728112167284" duration="2871000" />
+      <workItem from="1728184998417" duration="2647000" />
+      <workItem from="1728204058900" duration="2985000" />
+      <workItem from="1728277641062" duration="591000" />
+      <workItem from="1728297941142" duration="750000" />
+      <workItem from="1728371599396" duration="667000" />
+      <workItem from="1728632287720" duration="267000" />
+      <workItem from="1728635459062" duration="16218000" />
+      <workItem from="1728694484081" duration="771000" />
+      <workItem from="1728695292316" duration="9461000" />
+      <workItem from="1728718474607" duration="953000" />
+      <workItem from="1728719570603" duration="4179000" />
+      <workItem from="1728804042987" duration="14541000" />
+      <workItem from="1728828064453" duration="1690000" />
     </task>
     <servers />
   </component>
@@ -112,5 +237,24 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs</url>
+          <line>50</line>
+          <properties documentPath="D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\Controllers\Admin\Placetourism\PlaceTourismController.cs" containingFunctionPresentation="Method 'GetStatusPlaceTourismAsync'">
+            <startOffsets>
+              <option value="2308" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2376" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

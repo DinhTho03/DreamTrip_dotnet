@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using brandportal_dotnet.Data.Utils;
 
-namespace TravelItineraryProject.Data.Entities;
+namespace brandportal_dotnet.Data.Entities;
 [BsonConllection("comments")]
 public class Comments
 {

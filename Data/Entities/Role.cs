@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using brandportal_dotnet.Data.Utils;
 
-namespace TravelItineraryProject.Data.Entities;
+namespace brandportal_dotnet.Data.Entities;
 
 [BsonConllection("role")]
 public class Role
@@ -11,5 +11,5 @@ public class Role
     [BsonRepresentation(BsonType.ObjectId)]
     public string _Id { get; set; }
 
-    public string name { get; set; }
+    public string Name { get; set; }
 }

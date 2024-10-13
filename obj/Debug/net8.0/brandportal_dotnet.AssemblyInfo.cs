@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("brandportal_dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c86b9f5c38af6fc774bfab9882c545800fe01b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("brandportal_dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("brandportal_dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

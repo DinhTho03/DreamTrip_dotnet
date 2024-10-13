@@ -1,4 +1,4 @@
-﻿namespace TravelItineraryProject.Configuration;
+﻿namespace brandportal_dotnet.Configuration;
 
 public class DatabaseSettings
 {

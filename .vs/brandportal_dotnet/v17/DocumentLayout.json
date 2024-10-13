@@ -3,44 +3,188 @@
   "WorkspaceRootPath": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\controllers\\ifaqgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:controllers\\ifaqgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\controllers\\admin\\game\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:controllers\\admin\\game\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\faqgroup\\pagefaqgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\faqgroup\\pagefaqgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\faqgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\faqgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\faq\\pagefaqcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\faq\\pagefaqcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\faq\\pagefaqdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\faq\\pagefaqdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\utils\\bsonconllectionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\utils\\bsonconllectionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\admin\\games\\gamenotificationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\admin\\games\\gamenotificationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\rewardprogram\\rewardprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\rewardprogram\\rewardprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\loyrewardprogramgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\loyrewardprogramgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\controllers\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:controllers\\admin\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\controllers\\admin\\files\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:controllers\\admin\\files\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\file\\firebasestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\file\\firebasestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\account\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\account\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\detailtripplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\detailtripplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\dayitinerary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\dayitinerary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\constant\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:constant\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\controllers\\plan\\suggestplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:controllers\\plan\\suggestplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\plan\\suggestplan\\plansuggestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\plan\\suggestplan\\plansuggestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\suggestplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\suggestplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\pagebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\pagebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\loyrewardprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\loyrewardprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\gamecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\gamecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\file\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\file\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\file\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\file\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\loyrewardredeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\loyrewardredeem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\ifile\\ifilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:iservice\\ifile\\ifilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\brandportalcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\brandportalcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\configuration\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:configuration\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\irewardprogram\\irewardprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:iservice\\irewardprogram\\irewardprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\shared\\common\\blobcontainernameconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:shared\\common\\blobcontainernameconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\shared\\linqextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:shared\\linqextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\loyrewardproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\loyrewardproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\pagebanner\\pagebannerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\pagebanner\\pagebannerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\loyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\loyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\pagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\pagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\ipagebanner\\ipagebannerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:iservice\\ipagebanner\\ipagebannerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\utils\\bsonconllectionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\utils\\bsonconllectionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\addresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\addresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\faqgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\faqgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\shared\\predicatebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\models\\columnfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\models\\columnfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\configuration\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:configuration\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\brandportal_dotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -71,24 +207,12 @@
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:shared\\stringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\models\\pagingrequestinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\models\\pagingrequestinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\pagefaqgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\pagefaqgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\pagefaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\pagefaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\models\\lookuprequestinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,24 +243,12 @@
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\models\\columnorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\contracts\\faq\\pagefaqgrouptitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:contracts\\faq\\pagefaqgrouptitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\exceptions\\travelexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:exceptions\\travelexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -147,12 +259,96 @@
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\excludeditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\Faqs\\FaqController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\addresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\addresses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\TokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Account\\TokenDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\PageBanners\\PageBannerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PageBanners\\PageBannerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameResultDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\GameResultDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameRewardProgramNameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\GameRewardProgramNameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\GameGeneralInfoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\PageBanner\\PageDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\PageBanner\\PageDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Files\\FilesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\Files\\FilesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\game\\gameController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\game\\gameController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\GameGeneralInfoCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameCategoryByNameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\GameCategoryByNameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Loyalty\\RewardProgramController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\Loyalty\\RewardProgramController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\PageGameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Games\\PageGameDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqGroupController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\Faqs\\FaqGroupController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\PageFaqDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\Faq\\PageFaqCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqDetailDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\Faq\\PageFaqDetailDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqGroupDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\PageFaqGroupDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqGroupTitleDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Contracts\\Faq\\PageFaqGroupTitleDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -162,7 +358,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,216 +370,557 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageFaqGroupCreateDto.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
-              "RelativeToolTip": "Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAqAAAA",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T07:38:31.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Account.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
+              "RelativeToolTip": "Data\\Entities\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:06:08.23Z",
+              "WhenOpened": "2024-09-23T08:00:39.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Role.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
+              "RelativeToolTip": "Data\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:34:02.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Game.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
+              "RelativeToolTip": "Data\\Entities\\Game.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:50:37.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetailTripPlan.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DetailTripPlan.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\DetailTripPlan.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DetailTripPlan.cs",
+              "RelativeToolTip": "Data\\Entities\\DetailTripPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:30:17.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DayItinerary.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\DayItinerary.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
+              "RelativeToolTip": "Data\\Entities\\DayItinerary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:30:22.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "FaqController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Faqs\\FaqController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
+              "RelativeToolTip": "Controllers\\Faqs\\FaqController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAIwLwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T07:44:54.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Constant\\Constants.cs",
+              "RelativeDocumentMoniker": "Constant\\Constants.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Constant\\Constants.cs",
+              "RelativeToolTip": "Constant\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:18:11.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FirebaseStorageService.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
+              "RelativeDocumentMoniker": "Service\\File\\FirebaseStorageService.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
+              "RelativeToolTip": "Service\\File\\FirebaseStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:47:33.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PageFaqDetailDto.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
-              "RelativeToolTip": "Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\Auth\\AuthController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\Auth\\AuthController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAIwBIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:05:11.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PageFaqCreateDto.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
-              "RelativeToolTip": "Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:05:00.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IFaqGroupController.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\IFaqGroupController.cs",
-              "RelativeDocumentMoniker": "Controllers\\IFaqGroupController.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\IFaqGroupController.cs",
-              "RelativeToolTip": "Controllers\\IFaqGroupController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAIwIQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:47:01.78Z",
+              "WhenOpened": "2024-10-12T00:45:30.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LinqExtensions.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\LinqExtensions.cs",
-              "RelativeDocumentMoniker": "shared\\LinqExtensions.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\LinqExtensions.cs",
-              "RelativeToolTip": "shared\\LinqExtensions.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAIwDYAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:33:22.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADYAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:08:41.693Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\game\\GameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\game\\GameController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\game\\GameController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\game\\GameController.cs",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAvwB0BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:49:26.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Files\\FilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\Files\\FilesController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Files\\FilesController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\Files\\FilesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T04:14:06.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MongoRepository.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
               "RelativeDocumentMoniker": "Service\\MongoRepository.cs",
               "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
               "RelativeToolTip": "Service\\MongoRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwDwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T07:53:58.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ColumnFilter.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ColumnFilter.cs",
-              "RelativeDocumentMoniker": "Contracts\\Models\\ColumnFilter.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ColumnFilter.cs",
-              "RelativeToolTip": "Contracts\\Models\\ColumnFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:52:15.953Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FaqGroup.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\FaqGroup.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\FaqGroup.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\FaqGroup.cs",
-              "RelativeToolTip": "Data\\Entities\\FaqGroup.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvyUAAAAZAAAA",
+              "Title": "RewardProgramRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\RewardProgram\\RewardProgramRepository.cs",
+              "RelativeDocumentMoniker": "Service\\RewardProgram\\RewardProgramRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\RewardProgram\\RewardProgramRepository.cs",
+              "RelativeToolTip": "Service\\RewardProgram\\RewardProgramRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:07:12.586Z",
+              "WhenOpened": "2024-09-25T15:07:54.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRepository.cs",
-              "RelativeDocumentMoniker": "IService\\IRepository.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRepository.cs",
-              "RelativeToolTip": "IService\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAcAAAA",
+              "Title": "GameNotificationCreateDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
+              "RelativeToolTip": "Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:29:48.995Z",
+              "WhenOpened": "2024-10-12T05:54:19.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BsonConllectionAttribute.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Utils\\BsonConllectionAttribute.cs",
-              "RelativeDocumentMoniker": "Data\\Utils\\BsonConllectionAttribute.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Utils\\BsonConllectionAttribute.cs",
-              "RelativeToolTip": "Data\\Utils\\BsonConllectionAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:51:04.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PagingRequestInput.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\PagingRequestInput.cs",
-              "RelativeDocumentMoniker": "Contracts\\Models\\PagingRequestInput.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\PagingRequestInput.cs",
-              "RelativeToolTip": "Contracts\\Models\\PagingRequestInput.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:16:12.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "DatabaseSeeder.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
               "RelativeDocumentMoniker": "Data\\Extensions\\DatabaseSeeder.cs",
               "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
               "RelativeToolTip": "Data\\Extensions\\DatabaseSeeder.cs",
-              "ViewState": "AQIAAOoBAAAAAAAAAAAgwBgCAAAuAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAewHcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T07:59:32.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StringConverter.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\StringConverter.cs",
-              "RelativeDocumentMoniker": "shared\\StringConverter.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\StringConverter.cs",
-              "RelativeToolTip": "shared\\StringConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAEwG0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:57:54.377Z"
+              "WhenOpened": "2024-09-23T07:08:41.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRepository.cs",
+              "RelativeDocumentMoniker": "IService\\IRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRepository.cs",
+              "RelativeToolTip": "IService\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:29:48.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoyRewardProgramGame.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProgramGame.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\LoyRewardProgramGame.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProgramGame.cs",
+              "RelativeToolTip": "Data\\Entities\\LoyRewardProgramGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:12:23.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Account\\LoginDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\LoginDto.cs",
+              "RelativeToolTip": "Contracts\\Account\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:13:30.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\AccountDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Account\\AccountDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\AccountDto.cs",
+              "RelativeToolTip": "Contracts\\Account\\AccountDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:12:20.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Account\\TokenDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\TokenDto.cs",
+              "RelativeToolTip": "Contracts\\Account\\TokenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:19:39.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SuggestPlanController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Plan\\SuggestPlanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Plan\\SuggestPlanController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Plan\\SuggestPlanController.cs",
+              "RelativeToolTip": "Controllers\\Plan\\SuggestPlanController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:32:02.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PageBannerController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\PageBanners\\PageBannerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PageBanners\\PageBannerController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\PageBanners\\PageBannerController.cs",
+              "RelativeToolTip": "Controllers\\PageBanners\\PageBannerController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:54:46.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlanSuggestDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Plan\\SuggestPlan\\PlanSuggestDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Plan\\SuggestPlan\\PlanSuggestDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Plan\\SuggestPlan\\PlanSuggestDto.cs",
+              "RelativeToolTip": "Contracts\\Plan\\SuggestPlan\\PlanSuggestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:34:06.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GameCategory.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\GameCategory.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\GameCategory.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\GameCategory.cs",
+              "RelativeToolTip": "Data\\Entities\\GameCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:49:45.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GameResultDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameResultDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\GameResultDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameResultDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\GameResultDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:21:40.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GameRewardProgramNameDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameRewardProgramNameDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\GameRewardProgramNameDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameRewardProgramNameDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\GameRewardProgramNameDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:03:41.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GameGeneralInfoDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\GameGeneralInfoDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\GameGeneralInfoDto.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:13:34.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PageDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\PageBanner\\PageDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\PageBanner\\PageDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\PageBanner\\PageDto.cs",
+              "RelativeToolTip": "Contracts\\PageBanner\\PageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T07:05:57.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Faq.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Faq.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\Faq.cs",
               "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Faq.cs",
               "RelativeToolTip": "Data\\Entities\\Faq.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T08:01:56.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PredicateBuilder.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\PredicateBuilder.cs",
-              "RelativeDocumentMoniker": "shared\\PredicateBuilder.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\PredicateBuilder.cs",
-              "RelativeToolTip": "shared\\PredicateBuilder.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowAgAAAAkAAAA",
+              "DocumentIndex": 24,
+              "Title": "PageBanner.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\PageBanner.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\PageBanner.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\PageBanner.cs",
+              "RelativeToolTip": "Data\\Entities\\PageBanner.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAWwA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:46:42.105Z"
+              "WhenOpened": "2024-09-25T06:41:02.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PageDefaultConstants.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Common\\PageDefaultConstants.cs",
-              "RelativeDocumentMoniker": "Contracts\\Common\\PageDefaultConstants.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Common\\PageDefaultConstants.cs",
-              "RelativeToolTip": "Contracts\\Common\\PageDefaultConstants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
+              "DocumentIndex": 23,
+              "Title": "Page.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Page.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Page.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Page.cs",
+              "RelativeToolTip": "Data\\Entities\\Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:04:16.025Z"
+              "WhenOpened": "2024-09-25T06:37:15.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
+              "Title": "SuggestPlan.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\SuggestPlan.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\SuggestPlan.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\SuggestPlan.cs",
+              "RelativeToolTip": "Data\\Entities\\SuggestPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:36:59.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoyRewardProgram.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProgram.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\LoyRewardProgram.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProgram.cs",
+              "RelativeToolTip": "Data\\Entities\\LoyRewardProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T14:53:58.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Files\\FilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Files\\FilesController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Files\\FilesController.cs",
+              "RelativeToolTip": "Controllers\\Files\\FilesController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:08:13.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "gameController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\game\\gameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\game\\gameController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\game\\gameController.cs",
+              "RelativeToolTip": "Controllers\\game\\gameController.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAIBJwMQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T09:58:32.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "GameGeneralInfoCreateDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoCreateDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\GameGeneralInfoCreateDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameGeneralInfoCreateDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\GameGeneralInfoCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:12:51.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GameCategoryByNameDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameCategoryByNameDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\GameCategoryByNameDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\GameCategoryByNameDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\GameCategoryByNameDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:20:49.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RewardProgramController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Loyalty\\RewardProgramController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Loyalty\\RewardProgramController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Loyalty\\RewardProgramController.cs",
+              "RelativeToolTip": "Controllers\\Loyalty\\RewardProgramController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCEBAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:19:48.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PageGameDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\PageGameDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Games\\PageGameDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Games\\PageGameDto.cs",
+              "RelativeToolTip": "Contracts\\Games\\PageGameDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T10:00:09.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "FaqGroupController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqGroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Faqs\\FaqGroupController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqGroupController.cs",
+              "RelativeToolTip": "Controllers\\Faqs\\FaqGroupController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAtwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:47:01.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BrandPortalContainer.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\BrandPortalContainer.cs",
+              "RelativeDocumentMoniker": "Contracts\\BrandPortalContainer.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\BrandPortalContainer.cs",
+              "RelativeToolTip": "Contracts\\BrandPortalContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:15:42.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoyRewardProduct.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProduct.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\LoyRewardProduct.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProduct.cs",
+              "RelativeToolTip": "Data\\Entities\\LoyRewardProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T08:48:31.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IFileRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IFile\\IFileRepository.cs",
+              "RelativeDocumentMoniker": "IService\\IFile\\IFileRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IFile\\IFileRepository.cs",
+              "RelativeToolTip": "IService\\IFile\\IFileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:46:24.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "DatabaseSettings.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Configuration\\DatabaseSettings.cs",
               "RelativeDocumentMoniker": "Configuration\\DatabaseSettings.cs",
@@ -395,19 +932,331 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FileRepository.cs",
+              "RelativeDocumentMoniker": "Service\\File\\FileRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FileRepository.cs",
+              "RelativeToolTip": "Service\\File\\FileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T13:03:21.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FileDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\File\\FileDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\File\\FileDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\File\\FileDto.cs",
+              "RelativeToolTip": "Contracts\\File\\FileDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T18:06:14.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "resultRewardProgramCreateDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs",
+              "RelativeToolTip": "Contracts\\Loyalty\\RewardProgram\\resultRewardProgramCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:25:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRewardProgramRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRewardProgram\\IRewardProgramRepository.cs",
+              "RelativeDocumentMoniker": "IService\\IRewardProgram\\IRewardProgramRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IRewardProgram\\IRewardProgramRepository.cs",
+              "RelativeToolTip": "IService\\IRewardProgram\\IRewardProgramRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:07:08.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoyRewardRedeem.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardRedeem.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\LoyRewardRedeem.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardRedeem.cs",
+              "RelativeToolTip": "Data\\Entities\\LoyRewardRedeem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T14:58:35.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BlobContainerNameConst.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\Common\\BlobContainerNameConst.cs",
+              "RelativeDocumentMoniker": "shared\\Common\\BlobContainerNameConst.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\Common\\BlobContainerNameConst.cs",
+              "RelativeToolTip": "shared\\Common\\BlobContainerNameConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:16:27.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PageBannerRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\PageBanner\\PageBannerRepository.cs",
+              "RelativeDocumentMoniker": "Service\\PageBanner\\PageBannerRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\PageBanner\\PageBannerRepository.cs",
+              "RelativeToolTip": "Service\\PageBanner\\PageBannerRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:57:37.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RewardProgramDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs",
+              "RelativeToolTip": "Contracts\\Loyalty\\RewardProgram\\RewardProgramDto.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAiwIEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:21:36.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LinqExtensions.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\LinqExtensions.cs",
+              "RelativeDocumentMoniker": "shared\\LinqExtensions.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\LinqExtensions.cs",
+              "RelativeToolTip": "shared\\LinqExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:33:22.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LoyProgram.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyProgram.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\LoyProgram.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyProgram.cs",
+              "RelativeToolTip": "Data\\Entities\\LoyProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T14:56:52.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PageCard.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\PageCard.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\PageCard.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\PageCard.cs",
+              "RelativeToolTip": "Data\\Entities\\PageCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:38:27.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ProgramDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs",
+              "RelativeToolTip": "Contracts\\Loyalty\\RewardProgram\\ProgramDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T08:32:36.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IPageBannerRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IPageBanner\\IPageBannerRepository.cs",
+              "RelativeDocumentMoniker": "IService\\IPageBanner\\IPageBannerRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\IService\\IPageBanner\\IPageBannerRepository.cs",
+              "RelativeToolTip": "IService\\IPageBanner\\IPageBannerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:56:03.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BsonConllectionAttribute.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Utils\\BsonConllectionAttribute.cs",
+              "RelativeDocumentMoniker": "Data\\Utils\\BsonConllectionAttribute.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Utils\\BsonConllectionAttribute.cs",
+              "RelativeToolTip": "Data\\Utils\\BsonConllectionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:51:04.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PageFaqDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Faq\\PageFaqDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqDto.cs",
+              "RelativeToolTip": "Contracts\\Faq\\PageFaqDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:10:28.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Addresses.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Addresses.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Addresses.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Addresses.cs",
+              "RelativeToolTip": "Data\\Entities\\Addresses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:00:41.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Categories.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Categories.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Categories.cs",
+              "RelativeToolTip": "Data\\Entities\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:00:42.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "PageFaqCreateDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
+              "RelativeToolTip": "Contracts\\Faq\\Faq\\PageFaqCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:05:00.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PageFaqDetailDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
+              "RelativeToolTip": "Contracts\\Faq\\Faq\\PageFaqDetailDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:05:11.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ColumnFilter.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ColumnFilter.cs",
+              "RelativeDocumentMoniker": "Contracts\\Models\\ColumnFilter.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ColumnFilter.cs",
+              "RelativeToolTip": "Contracts\\Models\\ColumnFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:52:15.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FaqGroup.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\FaqGroup.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\FaqGroup.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\FaqGroup.cs",
+              "RelativeToolTip": "Data\\Entities\\FaqGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:07:12.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PagingRequestInput.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\PagingRequestInput.cs",
+              "RelativeDocumentMoniker": "Contracts\\Models\\PagingRequestInput.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\PagingRequestInput.cs",
+              "RelativeToolTip": "Contracts\\Models\\PagingRequestInput.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:16:12.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PageFaqGroupCreateDto.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
+              "RelativeToolTip": "Contracts\\Faq\\FaqGroup\\PageFaqGroupCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:06:08.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StringConverter.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\StringConverter.cs",
+              "RelativeDocumentMoniker": "shared\\StringConverter.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\StringConverter.cs",
+              "RelativeToolTip": "shared\\StringConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:57:54.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PredicateBuilder.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\PredicateBuilder.cs",
+              "RelativeDocumentMoniker": "shared\\PredicateBuilder.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\shared\\PredicateBuilder.cs",
+              "RelativeToolTip": "shared\\PredicateBuilder.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:46:42.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PageDefaultConstants.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Common\\PageDefaultConstants.cs",
+              "RelativeDocumentMoniker": "Contracts\\Common\\PageDefaultConstants.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Common\\PageDefaultConstants.cs",
+              "RelativeToolTip": "Contracts\\Common\\PageDefaultConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:04:16.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "brandportal_dotnet.csproj",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\brandportal_dotnet.csproj",
               "RelativeDocumentMoniker": "brandportal_dotnet.csproj",
               "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\brandportal_dotnet.csproj",
               "RelativeToolTip": "brandportal_dotnet.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-23T16:35:12.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 85,
               "Title": "PageFaqGroupDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqGroupDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Faq\\PageFaqGroupDto.cs",
@@ -419,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 53,
               "Title": "LookupRequestInput.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\LookupRequestInput.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\LookupRequestInput.cs",
@@ -431,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 58,
               "Title": "ExtraConfig.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ExtraConfig.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\ExtraConfig.cs",
@@ -443,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 57,
               "Title": "IFilterInput.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\IFilterInput.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\IFilterInput.cs",
@@ -455,7 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 56,
               "Title": "IPagingInput.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\IPagingInput.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\IPagingInput.cs",
@@ -467,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 55,
               "Title": "ISortInput.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ISortInput.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\ISortInput.cs",
@@ -479,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 52,
               "Title": "Images.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Images.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\Images.cs",
@@ -491,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 59,
               "Title": "ColumnOrder.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\ColumnOrder.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\ColumnOrder.cs",
@@ -503,19 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PageFaqDto.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Faq\\PageFaqDto.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqDto.cs",
-              "RelativeToolTip": "Contracts\\Faq\\PageFaqDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:10:28.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 54,
               "Title": "LookupDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Models\\LookupDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Models\\LookupDto.cs",
@@ -527,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 86,
               "Title": "PageFaqGroupTitleDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Faq\\PageFaqGroupTitleDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Faq\\PageFaqGroupTitleDto.cs",
@@ -539,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 60,
               "Title": "TravelExceptions.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Exceptions\\TravelExceptions.cs",
               "RelativeDocumentMoniker": "Exceptions\\TravelExceptions.cs",
@@ -551,31 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Account.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
-              "RelativeToolTip": "Data\\Entities\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:00:39.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T07:38:31.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 62,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -587,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 61,
               "Title": "Favorites.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Favorites.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\Favorites.cs",
@@ -599,31 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Addresses.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Addresses.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Addresses.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Addresses.cs",
-              "RelativeToolTip": "Data\\Entities\\Addresses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:00:41.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Categories.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Categories.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Categories.cs",
-              "RelativeToolTip": "Data\\Entities\\Categories.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:00:42.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 63,
               "Title": "ExcludedItems.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\ExcludedItems.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\ExcludedItems.cs",

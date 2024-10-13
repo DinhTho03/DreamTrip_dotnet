@@ -34,17 +34,32 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -69,11 +84,19 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Volo.Abp.AutoMapper": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
             "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Volo.Abp.BlobStoring": {
               "target": "Package",
               "version": "[8.0.4, )"
             },

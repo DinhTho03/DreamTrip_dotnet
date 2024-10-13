@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 
-namespace TravelItineraryProject.Data.Entities
+namespace brandportal_dotnet.Data.Entities
 {
     [BsonConllection("account")]
     public class Account
@@ -10,13 +10,27 @@ namespace TravelItineraryProject.Data.Entities
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string _Id { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string email { get; set; }
-        public string phone { get; set; }
-        public string password { get; set; }
-        public string passwordRT { get; set; }
-        public string roleId { get; set; }
-        public DateTime registerDate { get; set; }
+        public string? FullName { get; set; }
+        public string? Email { get; set; }
+        public string? Phone { get; set; }
+        public string? Avatar { get; set; }
+        public string Password { get; set; }
+        public string? PasswordRT { get; set; }
+        public string? RoleId { get; set; }
+        public DateTime? RegisterDate { get; set; }
+        public DateTime? LoginDate { get; set; }
+        /// <summary>
+        /// Đánh dấu xóa
+        /// </summary>
+        public bool? IsDeleted { get; set; }
+        /// <summary>
+        /// Ngày xóa
+        /// </summary>
+        public DateTime? DeletedAt { get; set; }
+
+        /// <summary>
+        /// Người xóa
+        /// </summary>
+        public uint? DeletedBy { get; set; }
     }
 }
