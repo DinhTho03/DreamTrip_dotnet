@@ -1,4 +1,5 @@
-﻿using brandportal_dotnet.Configuration;
+﻿using System.Linq.Expressions;
+using brandportal_dotnet.Configuration;
 using brandportal_dotnet.Data.Utils;
 using brandportal_dotnet.IService.IPageBanner;
 using Microsoft.Extensions.Options;
@@ -62,6 +63,29 @@ namespace brandportal_dotnet.Service.PageBanner
             var combinedFilter = Builders<T>.Filter.And(filters);
 
             return await _collection.Find(combinedFilter).FirstOrDefaultAsync();
+        }
+        public async Task<int> CountAsync(Expression<Func<T, bool>> filter)
+        {
+            // Get the count of documents that match the filter
+            long count = await _collection.CountDocumentsAsync(filter);
+    
+            // Cast the long count to int and return it
+            return (int)count; // Note: This may throw an exception if count exceeds int.MaxValue
+        }
+
+        public async Task DeleteMany(string pageId, IEnumerable<string> bannerIds)
+        {
+            var filter = Builders<T>.Filter.And(
+                Builders<T>.Filter.Eq("PageId", pageId),
+                Builders<T>.Filter.In("_id", bannerIds.Select(id => ObjectId.Parse(id)))
+            );
+
+            await _collection.DeleteManyAsync(filter);
+        }
+        
+        public async Task<List<T>> GetListAsync(Expression<Func<T, bool>> filter)
+        {
+            return await _collection.Find(filter).ToListAsync();
         }
     }
 }

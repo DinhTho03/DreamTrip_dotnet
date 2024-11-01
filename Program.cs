@@ -86,6 +86,11 @@ builder.Services.AddScoped(typeof(IRepository<LoyNotification>), typeof(MongoRep
 builder.Services.AddScoped(typeof(IRepository<PlaceTourismCategory>), typeof(MongoRepository<PlaceTourismCategory>));
 builder.Services.AddScoped(typeof(IRepository<PlaceTourismGroup>), typeof(MongoRepository<PlaceTourismGroup>));
 builder.Services.AddScoped(typeof(IRepository<PlaceTourism>), typeof(MongoRepository<PlaceTourism>));
+builder.Services.AddScoped(typeof(IRepository<OtpManager>), typeof(MongoRepository<OtpManager>));
+builder.Services.AddScoped(typeof(IRepository<NotificationPage>), typeof(MongoRepository<NotificationPage>));
+builder.Services.AddScoped(typeof(IRepository<EndpointPage>), typeof(MongoRepository<EndpointPage>));
+builder.Services.AddScoped(typeof(IRepository<GroupTripPlan>), typeof(MongoRepository<GroupTripPlan>));
+builder.Services.AddScoped(typeof(IRepository<DetailTripPlan>), typeof(MongoRepository<DetailTripPlan>));
 
 
 builder.Services.AddScoped<DatabaseSeeder>();

@@ -13,8 +13,8 @@ public class DatabaseSeeder
     private readonly IMongoCollection<Addresses> _addressCollection;
     private readonly IMongoCollection<Categories> _cateCollection;
     private readonly IMongoCollection<Comments> _commentCollection;
-    private readonly IMongoCollection<DayItinerary> _dayItineraryCollection;
-    private readonly IMongoCollection<DetailTripPlan> _detailTripPlanCollection;
+    private readonly IMongoCollection<GroupTripPlan> _dayItineraryCollection;
+    private readonly IMongoCollection<DetailTripPlan> _groupTripPlanCollection;
     private readonly IMongoCollection<ExcludedItems> _excludedItemsCollection;
     private readonly IMongoCollection<Favorites> _favoritesCollection;
     private readonly IMongoCollection<GoogleMapsAddress> _googleMapsAddressCollection;
@@ -46,18 +46,20 @@ public class DatabaseSeeder
     private readonly IMongoCollection<PlaceTourism> _placeTourismCollection;
     private readonly IMongoCollection<PlaceTourismCategory> _placeTourismCategoryCollection;
     private readonly IMongoCollection<PlaceTourismGroup> _placeTourismGroupCollection;
+    private readonly IMongoCollection<NotificationPage> _notificationCollection;
 
     public DatabaseSeeder(IOptions<DatabaseSettings> options)
     {
         var client = new MongoClient(options.Value.ConnectionString);
+
         var database = client.GetDatabase(options.Value.DatabaseName);
         _roleCollection = database.GetCollection<Role>("role");
         _accountCollection = database.GetCollection<Account>("account");
         _addressCollection = database.GetCollection<Addresses>("addresses");
         _cateCollection = database.GetCollection<Categories>("categories");
         _commentCollection = database.GetCollection<Comments>("comments");
-        _dayItineraryCollection = database.GetCollection<DayItinerary>("dayItinerary");
-        _detailTripPlanCollection = database.GetCollection<DetailTripPlan>("detailTripPlan");
+        _dayItineraryCollection = database.GetCollection<GroupTripPlan>("groupTripPlan");
+        _groupTripPlanCollection = database.GetCollection<DetailTripPlan>("detailTripPlan");
         _favoritesCollection = database.GetCollection<Favorites>("favorites");
         _googleMapsAddressCollection = database.GetCollection<GoogleMapsAddress>("googleMapsAddress");
         _imagesCollection = database.GetCollection<Images>("images");
@@ -88,6 +90,7 @@ public class DatabaseSeeder
         _placeTourismCategoryCollection = database.GetCollection<PlaceTourismCategory>("placeTourismCategory");
         _placeTourismCollection = database.GetCollection<PlaceTourism>("placeTourism");
         _placeTourismGroupCollection = database.GetCollection<PlaceTourismGroup>("placeTourismGroup");
+        _notificationCollection = database.GetCollection<NotificationPage>("notificationPage");
     }
 
     public void Seed()
@@ -463,21 +466,18 @@ public class DatabaseSeeder
         }
 
         // Create data for DayItinerary
-        var dayItineraryList = new List<DayItinerary>
+        var dayItineraryList = new List<GroupTripPlan>
         {
-            new DayItinerary
+            new GroupTripPlan
             {
                 _Id = "656949800fd3d398f9580a8c",
-                dayNumber = 1,
-                activities = "Maldives",
-                userId = "655f9dca62b255ca9b9dcab5" // Replace with an actual user ID
-            },
-            new DayItinerary
-            {
-                _Id = "65694cf578d9c69deafd64a0",
-                dayNumber = 1,
-                activities = "Visit museums and art galleries",
-                userId = "656499cccf3a97431ceabc92" // Replace with another actual user ID
+                Name = "Ngày yêu thương",
+                CreatedAt = DateTime.Now,
+                StartDate = DateTime.Now,
+                EndDate = DateTime.Now.AddDays(1),
+                IsExpired = false,
+                IsPublic = true,
+                UserId = "655f9dca62b255ca9b9dcab5"
             },
         };
 
@@ -524,30 +524,23 @@ public class DatabaseSeeder
             new DetailTripPlan
             {
                 _Id = "656460b82884711f5decfeae",
-                location = "City A",
-                nameService = "Hotel XYZ",
-                description = "Comfortable hotel with a view",
-                price = "$150 per night",
-                startDate = DateTime.Now,
-                endDate = DateTime.Now.AddDays(1), // Example: 3 days stay
-                tripPlanId = "6561706954b4398e48af3a9b" // Replace with an actual trip plan ID
-            },
-            new DetailTripPlan
-            {
-                _Id = "656460b82884711f5decfeb1",
-                location = "City B",
-                nameService = "Tour Company ABC",
-                description = "Guided tour of local attractions",
-                price = "$200 per person",
-                startDate = DateTime.Now, // Example: Start after the first service
-                endDate = DateTime.Now.AddDays(1), // Example: 3 days tour
-                tripPlanId = "65645f2f2884711f5decfe29" // Replace with another actual trip plan ID
+                NumberDay = 1,
+                Name = "Bamos",
+                Distance = "5.5 km",
+                Lat = 2,
+                Lng = 2,
+                Photos = "",
+                HasExperienced = false,
+                Rating = 4.5,
+                UserRatingsTotal = 2,
+                PlaceId = "",
+                GroupTripPlanId = "656949800fd3d398f9580a8c"
             },
         };
 
-        if (_detailTripPlanCollection.CountDocuments(_ => true) == 0)
+        if (_groupTripPlanCollection.CountDocuments(_ => true) == 0)
         {
-            _detailTripPlanCollection.InsertMany(detailTripPlanList);
+            _groupTripPlanCollection.InsertMany(detailTripPlanList);
         }
 
 
@@ -1252,5 +1245,27 @@ public class DatabaseSeeder
         {
             _placeTourismCollection.InsertMany(placeTourismList);
         }
+        
+        var notificationList = new List<NotificationPage>
+        {
+            new NotificationPage()
+            {
+               _Id = "66f926f11f4d8fa281acd3d4",
+               Title = "Trang chi tiết game",
+               Type = "game",
+               IsActive = true,
+               Description = "Nội dung thông báo 1",
+               StartDate = DateTime.Now,
+               EndDate = DateTime.Now,
+               PageId = "636460b82884711f5decfeb4",
+               
+            },
+        };
+
+        if (_notificationCollection.CountDocuments(_ => true) == 0)
+        {
+            _notificationCollection.InsertMany(notificationList);
+        }
     }
 }
+    

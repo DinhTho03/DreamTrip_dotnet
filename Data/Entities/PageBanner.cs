@@ -37,6 +37,7 @@ namespace brandportal_dotnet.Data.Entities
         /// đích đến chi tiết
         /// </summary>
         public string? ActionParams { get; set; }
+        public string? EndpointId { get; set; }
 
         public bool? IsDeleted { get; set; }
 

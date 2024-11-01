@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\service\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:service\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|solutionrelative:data\\extensions\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5D1D98-04A3-4F5D-A6E5-7E2E0F19AD67}|brandportal_dotnet.csproj|d:\\workspace\\hk241_2024-2025\\kltn\\dreamtrip\\brandportal_dotnet\\iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -358,7 +358,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -370,52 +370,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T07:38:31.801Z",
+              "DocumentIndex": 10,
+              "Title": "FirebaseStorageService.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
+              "RelativeDocumentMoniker": "Service\\File\\FirebaseStorageService.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
+              "RelativeToolTip": "Service\\File\\FirebaseStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:47:33.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\Auth\\AuthController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\Auth\\AuthController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAIwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T00:45:30.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Account.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
-              "RelativeToolTip": "Data\\Entities\\Account.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "MongoRepository.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
+              "RelativeDocumentMoniker": "Service\\MongoRepository.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
+              "RelativeToolTip": "Service\\MongoRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:00:39.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Role.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
-              "RelativeToolTip": "Data\\Entities\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T12:34:02.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Game.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
-              "RelativeToolTip": "Data\\Entities\\Game.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T09:50:37.206Z"
+              "WhenOpened": "2024-09-23T07:53:58.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -431,27 +420,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DayItinerary.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\DayItinerary.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
-              "RelativeToolTip": "Data\\Entities\\DayItinerary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "DocumentIndex": 16,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Game.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Game.cs",
+              "RelativeToolTip": "Data\\Entities\\Game.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T12:30:22.793Z"
+              "WhenOpened": "2024-09-29T09:50:37.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "FaqController.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Faqs\\FaqController.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
-              "RelativeToolTip": "Controllers\\Faqs\\FaqController.cs",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAIwLwAAAAPAAAA",
+              "DocumentIndex": 0,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\Extensions\\DatabaseSeeder.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Data\\Extensions\\DatabaseSeeder.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAC4AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:44:54.762Z"
+              "WhenOpened": "2024-09-23T07:59:32.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -467,33 +457,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "FaqController.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Faqs\\FaqController.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Faqs\\FaqController.cs",
+              "RelativeToolTip": "Controllers\\Faqs\\FaqController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAIwLwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T07:44:54.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DayItinerary.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\DayItinerary.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\DayItinerary.cs",
+              "RelativeToolTip": "Data\\Entities\\DayItinerary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:30:22.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Role.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Role.cs",
+              "RelativeToolTip": "Data\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T12:34:02.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Account.cs",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\Account.cs",
+              "RelativeToolTip": "Data\\Entities\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:00:39.887Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FirebaseStorageService.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
-              "RelativeDocumentMoniker": "Service\\File\\FirebaseStorageService.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\File\\FirebaseStorageService.cs",
-              "RelativeToolTip": "Service\\File\\FirebaseStorageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:47:33.874Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T07:38:31.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Admin\\Auth\\AuthController.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Auth\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\Admin\\Auth\\AuthController.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAIwBIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:45:30.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameController.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\game\\GameController.cs",
               "RelativeDocumentMoniker": "Controllers\\Admin\\game\\GameController.cs",
@@ -501,12 +525,11 @@
               "RelativeToolTip": "Controllers\\Admin\\game\\GameController.cs",
               "ViewState": "AQIAAA0BAAAAAAAAAAAvwB0BAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:49:26.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T00:49:26.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FilesController.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Controllers\\Admin\\Files\\FilesController.cs",
               "RelativeDocumentMoniker": "Controllers\\Admin\\Files\\FilesController.cs",
@@ -514,25 +537,11 @@
               "RelativeToolTip": "Controllers\\Admin\\Files\\FilesController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T04:14:06.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T04:14:06.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MongoRepository.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
-              "RelativeDocumentMoniker": "Service\\MongoRepository.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\MongoRepository.cs",
-              "RelativeToolTip": "Service\\MongoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:53:58.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RewardProgramRepository.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Service\\RewardProgram\\RewardProgramRepository.cs",
               "RelativeDocumentMoniker": "Service\\RewardProgram\\RewardProgramRepository.cs",
@@ -540,12 +549,11 @@
               "RelativeToolTip": "Service\\RewardProgram\\RewardProgramRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T15:07:54.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T15:07:54.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameNotificationCreateDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
@@ -553,24 +561,11 @@
               "RelativeToolTip": "Contracts\\Admin\\Games\\GameNotificationCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:54:19.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T05:54:19.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DatabaseSeeder.cs",
-              "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
-              "RelativeDocumentMoniker": "Data\\Extensions\\DatabaseSeeder.cs",
-              "ToolTip": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Extensions\\DatabaseSeeder.cs",
-              "RelativeToolTip": "Data\\Extensions\\DatabaseSeeder.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAewHcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:59:32.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -578,8 +573,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAEwG0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:08:41.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:08:41.693Z"
             },
             {
               "$type": "Document",
@@ -595,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoyRewardProgramGame.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Data\\Entities\\LoyRewardProgramGame.cs",
               "RelativeDocumentMoniker": "Data\\Entities\\LoyRewardProgramGame.cs",
@@ -603,12 +597,11 @@
               "RelativeToolTip": "Data\\Entities\\LoyRewardProgramGame.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T06:12:23.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T06:12:23.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\LoginDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Account\\LoginDto.cs",
@@ -620,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AccountDto.cs",
               "DocumentMoniker": "D:\\workspace\\HK241_2024-2025\\KLTN\\DreamTrip\\brandportal_dotnet\\Contracts\\Account\\AccountDto.cs",
               "RelativeDocumentMoniker": "Contracts\\Account\\AccountDto.cs",

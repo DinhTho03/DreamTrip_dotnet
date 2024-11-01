@@ -1,4 +1,6 @@
-﻿namespace brandportal_dotnet.IService.IPageBanner
+﻿using System.Linq.Expressions;
+
+namespace brandportal_dotnet.IService.IPageBanner
 {
     public interface IPageBannerRepository<T>
     {
@@ -8,5 +10,8 @@
         Task Insert(T item);
         Task Update(string id, T item);
         Task Delete(string id);
+        Task<int> CountAsync(Expression<Func<T, bool>> filter);
+        Task DeleteMany(string pageId, IEnumerable<string> bannerIds);
+        Task<List<T>> GetListAsync(Expression<Func<T, bool>> filter);
     }
 }

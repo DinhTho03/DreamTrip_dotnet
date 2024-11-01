@@ -40,6 +40,8 @@
           "FirebaseAdmin": "3.0.1",
           "FirebaseStorage.net": "1.0.3",
           "Google.Apis.Auth": "1.68.0",
+          "Google.Apis.Gmail.v1": "1.68.0.3427",
+          "MailKit": "4.8.0",
           "Microsoft.AspNetCore.Authentication.Google": "8.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.8",
           "Microsoft.Extensions.FileProviders.Embedded": "8.0.4",
@@ -232,7 +234,6 @@
           "System.Drawing": "4.0.0.0",
           "System.Drawing.Primitives": "8.0.0.0",
           "System.Dynamic.Runtime": "8.0.0.0",
-          "System.Formats.Asn1": "8.0.0.0",
           "System.Formats.Tar": "8.0.0.0",
           "System.Globalization.Calendars.Reference": "8.0.0.0",
           "System.Globalization.Reference": "8.0.0.0",
@@ -471,6 +472,17 @@
           "lib/net6.0/BCrypt.Net-Next.dll": {}
         }
       },
+      "BouncyCastle.Cryptography/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.0.33771"
+          }
+        },
+        "compile": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
+        }
+      },
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -619,6 +631,21 @@
           "lib/net6.0/Google.Apis.Core.dll": {}
         }
       },
+      "Google.Apis.Gmail.v1/1.68.0.3427": {
+        "dependencies": {
+          "Google.Apis": "1.68.0",
+          "Google.Apis.Auth": "1.68.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Gmail.v1.dll": {
+            "assemblyVersion": "1.68.0.3427",
+            "fileVersion": "1.68.0.3427"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Google.Apis.Gmail.v1.dll": {}
+        }
+      },
       "IdentityModel/6.2.0": {
         "runtime": {
           "lib/net6.0/IdentityModel.dll": {
@@ -639,6 +666,21 @@
         },
         "compile": {
           "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
+      "MailKit/4.8.0": {
+        "dependencies": {
+          "MimeKit": "4.8.0",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MailKit.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        },
+        "compile": {
+          "lib/net8.0/MailKit.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
@@ -1168,6 +1210,22 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
+      "MimeKit/4.8.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0",
+          "System.Formats.Asn1": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/MimeKit.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        },
+        "compile": {
+          "lib/net8.0/MimeKit.dll": {}
+        }
+      },
       "MongoDB.Bson/2.29.0": {
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -1574,6 +1632,17 @@
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Formats.Asn1/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
+        },
+        "compile": {
+          "lib/net8.0/System.Formats.Asn1.dll": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -2015,6 +2084,14 @@
           "System.Security.Cryptography.Primitives": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {}
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -4229,12 +4306,6 @@
         },
         "compileOnly": true
       },
-      "System.Formats.Asn1/8.0.0.0": {
-        "compile": {
-          "System.Formats.Asn1.dll": {}
-        },
-        "compileOnly": true
-      },
       "System.Formats.Tar/8.0.0.0": {
         "compile": {
           "System.Formats.Tar.dll": {}
@@ -5049,6 +5120,13 @@
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
+    "BouncyCastle.Cryptography/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
+      "path": "bouncycastle.cryptography/2.4.0",
+      "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
+    },
     "Castle.Core/5.1.1": {
       "type": "package",
       "serviceable": true,
@@ -5119,6 +5197,13 @@
       "path": "google.apis.core/1.68.0",
       "hashPath": "google.apis.core.1.68.0.nupkg.sha512"
     },
+    "Google.Apis.Gmail.v1/1.68.0.3427": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SOCapuhgPUxPARbO97TpB26jmyJwyJG1hLeEXjeVnWhgf3sXfANbu4JcPULkEkNC7RUahh02gqiN7jyo3mvedw==",
+      "path": "google.apis.gmail.v1/1.68.0.3427",
+      "hashPath": "google.apis.gmail.v1.1.68.0.3427.nupkg.sha512"
+    },
     "IdentityModel/6.2.0": {
       "type": "package",
       "serviceable": true,
@@ -5132,6 +5217,13 @@
       "sha512": "sha512-PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA==",
       "path": "jetbrains.annotations/2023.3.0",
       "hashPath": "jetbrains.annotations.2023.3.0.nupkg.sha512"
+    },
+    "MailKit/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zZ1UoM4FUnSFUJ9fTl5CEEaejR0DNP6+FDt1OfXnjg4igZntcir1tg/8Ufd6WY5vrpmvToAjluYqjVM24A+5lA==",
+      "path": "mailkit/4.8.0",
+      "hashPath": "mailkit.4.8.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
       "type": "package",
@@ -5511,6 +5603,13 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
+    "MimeKit/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U24wp4LKED+sBRzyrWICE+3bSwptsTrPOcCIXbW5zfeThCNzQx5NCo8Wus+Rmi+EUkQrCwlI/3sVfejeq9tuxQ==",
+      "path": "mimekit/4.8.0",
+      "hashPath": "mimekit.4.8.0.nupkg.sha512"
+    },
     "MongoDB.Bson/2.29.0": {
       "type": "package",
       "serviceable": true,
@@ -5833,6 +5932,13 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
     },
+    "System.Formats.Asn1/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
+    },
     "System.Globalization/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -6126,6 +6232,13 @@
       "sha512": "sha512-h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ULmp3xoOwNYjOYp4JZ2NK/6NdTgiN1GQXzVVN1njQ7LOZ0d0B9vyMnhyqbIi9Qw4JXj1JgCsitkTShboHRx7Eg==",
+      "path": "system.security.cryptography.pkcs/8.0.0",
+      "hashPath": "system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",
@@ -7551,11 +7664,6 @@
       "sha512": ""
     },
     "System.Dynamic.Runtime/8.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Formats.Asn1/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

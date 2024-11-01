@@ -291,7 +291,6 @@ D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Drawing.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Drawing.Primitives.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Dynamic.Runtime.dll
-D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Formats.Asn1.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Formats.Tar.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Globalization.Calendars.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\refs\System.Globalization.dll
@@ -482,3 +481,9 @@ D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\MailKit.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\MimeKit.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\Google.Apis.Gmail.v1.dll
+D:\workspace\HK241_2024-2025\KLTN\DreamTrip\brandportal_dotnet\bin\Debug\net8.0\client_secrets.json

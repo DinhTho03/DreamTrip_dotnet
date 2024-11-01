@@ -10,6 +10,18 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Google.Apis.Auth.OAuth2;
+using MailKit.Net.Smtp;
+using MailKit.Security;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.Extensions.Options;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Gmail.v1;
+using Google.Apis.Gmail.v1.Data;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using MimeKit;
+using MimeKit.Text;
 
 namespace brandportal_dotnet.Controllers.Auth
 {
@@ -17,83 +29,266 @@ namespace brandportal_dotnet.Controllers.Auth
     [ApiController]
     public class AuthController : ControllerBase
     {
+        string[] Scopes = { GmailService.Scope.GmailSend };
+        private static string ApplicationName = "DreamTrip";
         private readonly IRepository<Role> _roleService;
         private readonly IRepository<Account> _accountService;
         private readonly IConfiguration _configuration;
+        private readonly IRepository<OtpManager> _otpManager;
 
         public AuthController(IRepository<Role> roleService, IRepository<Account> accountService,
-            IConfiguration configuration)
+            IConfiguration configuration, IRepository<OtpManager> otpManager)
         {
             _roleService = roleService;
             _accountService = accountService;
             _configuration = configuration;
+            _otpManager = otpManager;
         }
 
-        [HttpPost("~/api/user/register")]
-        public async Task<IActionResult> Register(AccountDto accountDto)
+        [HttpPost("~/api/user/confirm/register")]
+        public async Task<IActionResult> ConfirmRegister(AccountDto accountDto)
         {
-            var conditionRole = new Dictionary<string, object> { { "Name", "user" } };
-            var roleFilter = await _roleService.FindByProperties(conditionRole);
-            var password = BCrypt.Net.BCrypt.HashPassword(accountDto.Password, Constants.PasswordSalt);
-            var phoneCondition = new Dictionary<string, object> { { "Phone", accountDto.Phone } };
-            var emailExisted = await _accountService.FindByProperties(phoneCondition);
-            if (emailExisted != null)
+            bool otpresponse = await ValidateOTP(accountDto.Email, accountDto.Otptext);
+            if (!otpresponse)
             {
-                return BadRequest(new { message = "Email này đã tồn tại" });
+                return BadRequest(new { message = "Nhập sai mã OTP hoặc mã OTP hết hạn" });
             }
 
             if (accountDto.Password != accountDto.ConfirmPassword)
             {
                 return BadRequest(new { message = "Mật khẩu không trùng khớp" });
             }
+            else
+            {
+                var password = BCrypt.Net.BCrypt.HashPassword(accountDto.Password, Constants.PasswordSalt);
+                var dataUser = new Account()
+                {
+                    Email = accountDto.Email,
+                    Password = password,
+                    RegisterDate = DateTime.Now,
+                    IsDeleted = false,
+                    LoginDate = DateTime.Now,
+                };
+                await _accountService.Insert(dataUser);
+                var user = new LoginDto
+                {
+                    Email = dataUser.Email,
+                    Password = accountDto.Password
+                };
+                var dataCondition = new Dictionary<string, object>
+                {
+                    { "Email", accountDto.Email },
+                };
+                var data = await _otpManager.FindByProperties(dataCondition);
+                await _otpManager.Delete(data._Id);
+                return await AuthenticateUser(user);
+            }
+        }
+        
+       
 
-            var dataUser = new Account
+        private async Task<bool> ValidateOTP(string email, string OTPText)
+        {
+            bool response = false;
+            var dataCondition = new Dictionary<string, object>
             {
-                Password = password,
-                Phone = accountDto.Phone,
-                RegisterDate = DateTime.Now,
-                RoleId = roleFilter._Id,
-                IsDeleted = false
+                { "Email", email },
+                { "Otptext", OTPText },
+                { "Expiration", Tuple.Create("gt", DateTime.Now) }
             };
-            await _accountService.Insert(dataUser);
-            var user = new LoginDto
+            var data = await _otpManager.FindByProperties(dataCondition);
+            if (data != null)
             {
-                Phone = dataUser.Phone,
-                Password = accountDto.Password
+                response = true;
+            }
+
+            return response;
+        }
+
+        [HttpPost("~/api/user/register-otp")]
+        public async Task<IActionResult> RegisterUser(EmailRegister email)
+        {
+            var conditionRole = new Dictionary<string, object> { { "Name", "user" } };
+            var roleFilter = await _roleService.FindByProperties(conditionRole);
+            // var password = BCrypt.Net.BCrypt.HashPassword(accountDto.Password, Constants.PasswordSalt);
+            var emailCondition = new Dictionary<string, object> { { "Email", email.email } };
+            var emailExisted = await _accountService.FindByProperties(emailCondition);
+            if (emailExisted != null)
+            {
+                return BadRequest(new { message = "Email này đã tồn tại" });
+            }
+
+            //
+            // if (accountDto.Password != accountDto.ConfirmPassword)
+            // {
+            //     return BadRequest(new { message = "Mật khẩu không trùng khớp" });
+            // }
+            string OTPText = Generaterandomnumber();
+            var dataUser = new OtpManager()
+            {
+                Email = email.email,
+                Otptext = OTPText,
+                Createddate = DateTime.Now,
+                Expiration = DateTime.Now.AddMinutes(30),
+                Otptype = "register",
             };
-            
-            return Ok(await AuthenticateUser(user));
+            await _otpManager.Insert(dataUser);
+            await SendOtpMail(email.email, OTPText);
+
+            return Ok();
+        }
+        
+        [HttpPost("~/api/user/forgot-password")]
+        public async Task<IActionResult> ForgotPassword(EmailRegister email)
+        {
+            var conditionRole = new Dictionary<string, object> { { "Name", "user" } };
+            var roleFilter = await _roleService.FindByProperties(conditionRole);
+            // var password = BCrypt.Net.BCrypt.HashPassword(accountDto.Password, Constants.PasswordSalt);
+            var phoneCondition = new Dictionary<string, object> { { "Email", email.email } };
+            var emailExisted = await _accountService.FindByProperties(phoneCondition);
+            if (emailExisted == null)
+            {
+                return BadRequest(new { message = "Email này Không tồn tại" });
+            }
+            string OTPText = Generaterandomnumber();
+            var dataUser = new OtpManager()
+            {
+                Email = email.email,
+                Otptext = OTPText,
+                Createddate = DateTime.Now,
+                Expiration = DateTime.Now.AddMinutes(30),
+                Otptype = "forgotPassword",
+            };
+            await _otpManager.Insert(dataUser);
+            await SendOtpMail(email.email, OTPText);
+
+            return Ok();
+        }
+        
+        [HttpPost("~/api/user/confirm/forgot-password")]
+        public async Task<IActionResult> ConfirmForgotPassword(AccountDto accountDto)
+        {
+            bool otpresponse = await ValidateOTP(accountDto.Email, accountDto.Otptext);
+            if (!otpresponse)
+            {
+                return BadRequest(new { message = "Nhập sai mã OTP hoặc mã OTP hết hạn" });
+            }
+
+            if (accountDto.Password != accountDto.ConfirmPassword)
+            {
+                return BadRequest(new { message = "Mật khẩu không trùng khớp" });
+            }
+            else
+            {
+                var password = BCrypt.Net.BCrypt.HashPassword(accountDto.Password, Constants.PasswordSalt);
+        
+                var userCondition = new Dictionary<string, object>
+                {
+                    { "Email", accountDto.Email }
+                };
+                var user = await _accountService.FindByProperties(userCondition);
+                user.Password = password;
+                user.LoginDate = DateTime.Now;
+                
+        
+                await _accountService.Update(user._Id, user);
+
+                var userLogin = new LoginDto
+                {
+                    Email = accountDto.Email,
+                    Password = accountDto.Password
+                };
+
+                // Delete the used OTP
+                var dataCondition = new Dictionary<string, object>
+                {
+                    { "Email", accountDto.Email },
+                };
+                var otpData = await _otpManager.FindByProperties(dataCondition);
+                await _otpManager.Delete(otpData._Id);
+
+                return await AuthenticateUser(userLogin);
+            }
+        }
+
+
+        private void SendEmailWithGmailAPI(Mailrequest mailrequest)
+        {
+            var email = new MimeMessage();
+            email.From.Add(MailboxAddress.Parse(_configuration.GetSection("EmailSettings:Email").Value));
+            email.To.Add(MailboxAddress.Parse(mailrequest.Email));
+            email.Subject = mailrequest.Subject;
+            email.Body = new TextPart(TextFormat.Html) { Text = mailrequest.Emailbody };
+
+            using var smtp = new SmtpClient();
+            smtp.Connect(_configuration.GetSection("EmailSettings:Host").Value, 587, SecureSocketOptions.StartTls);
+            smtp.Authenticate(_configuration.GetSection("EmailSettings:Email").Value,
+                _configuration.GetSection("EmailSettings:Password").Value); // Use App Password here
+            smtp.Send(email);
+            smtp.Disconnect(true);
+        }
+
+
+        private async Task UpdateOtp(string email, string otptext, string otptype)
+        {
+            var _opt = new OtpManager()
+            {
+                Email = email,
+                Otptext = otptext,
+                Expiration = DateTime.Now.AddMinutes(30),
+                Createddate = DateTime.Now,
+                Otptype = otptype
+            };
+            await _otpManager.Insert(_opt);
+        }
+
+        private string Generaterandomnumber()
+        {
+            Random random = new Random();
+            string randomno = random.Next(0, 1000000).ToString("D6");
+            return randomno;
+        }
+
+        private async Task SendOtpMail(string useremail, string OtpText)
+        {
+            var mailrequest = new Mailrequest();
+            mailrequest.Email = useremail;
+            mailrequest.Subject = "Thanks for registering : OTP";
+            mailrequest.Emailbody = GenerateEmailBody(OtpText);
+            SendEmailWithGmailAPI(mailrequest);
+        }
+
+        private string GenerateEmailBody(string otptext)
+        {
+            string emailbody = "<div>";
+            emailbody += "<p>Hi you, Thanks for registering</p>";
+            emailbody += "<p>Please enter OTP text and complete the registration</p>";
+            emailbody += "<p>OTP Text is: <span style=\"font-weight: 900\">" + otptext + "</span></p>";
+            emailbody += "</div>";
+            return emailbody;
         }
 
         [HttpPost("~/api/user/login")]
         public async Task<IActionResult> Login(LoginDto login)
         {
-            var phoneCondition = new Dictionary<string, object> { { "Phone", login.Phone } };
+            var phoneCondition = new Dictionary<string, object> { { "Email", login.Email } };
             var userFilter = await _accountService.FindByProperties(phoneCondition);
             if (userFilter == null)
             {
-                return BadRequest(new { message = "Số điện thoại hoặc mật khẩu không trùng khớp" });
+                return BadRequest(new { message = "Email hoặc mật khẩu không trùng khớp" });
             }
 
             var passwordHash = BCrypt.Net.BCrypt.Verify(login.Password, userFilter.Password);
             if (passwordHash)
             {
-                var token = await AuthenticateUser(login);
-                return Ok(await AuthenticateUser(login));
+                return await AuthenticateUser(login);
             }
 
-            return BadRequest(new { message = "Số điện thoại hoặc mật khẩu không trùng khớp" });
+            return BadRequest(new { message = "Email hoặc mật khẩu không trùng khớp" });
         }
 
-        private async Task<UserDto> AuthenticateUser(LoginDto login)
+        private async Task<IActionResult> AuthenticateUser(LoginDto login)
         {
-            // Check user by phone
-            var phoneCondition = new Dictionary<string, object>
-            {
-                { "Phone", login.Phone }
-            };
-            var user = await _accountService.FindByProperties(phoneCondition); // Assume user contains password hash
-
             // Check user by email if phone is not found
             var emailCondition = new Dictionary<string, object>
             {
@@ -102,16 +297,17 @@ namespace brandportal_dotnet.Controllers.Auth
 
             var emailUser = await _accountService.FindByProperties(emailCondition);
 
-            if (user == null && emailUser == null)
+            if (emailUser == null)
             {
-                throw new Exception("User not found");
+                BadRequest(new
+                {
+                    message = ("User not found")
+                });
             }
 
-            // If phoneUser is null, use emailUser instead
-            user = user ?? emailUser;
 
             // Verify password using bcrypt
-            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(login.Password, user.Password);
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(login.Password, emailUser.Password);
             if (!isPasswordValid)
             {
                 throw new Exception("Invalid credentials");
@@ -129,20 +325,19 @@ namespace brandportal_dotnet.Controllers.Auth
             }
 
             // Return user information
-            return new UserDto
+            return Ok(new UserDto
             {
-                UserId = user._Id.ToString(),
+                UserId = emailUser._Id,
                 Role = role.Name,
-                Phone = user.Phone,
-                Email = user.Email,
-                Avatar = user.Avatar,
-            };
+                Phone = emailUser.Phone,
+                Email = emailUser.Email,
+                Avatar = emailUser.Avatar,
+            });
         }
 
 
         [HttpPost("~/api/user/google/login")]
-        public async Task<IActionResult>
-            LoginWithGoogle([FromBody] CredentialDto data) // Sử dụng DTO để nhận dữ liệu từ client
+        public async Task<IActionResult> LoginWithGoogle([FromBody] CredentialDto data) // Sử dụng DTO để nhận dữ liệu từ client
         {
             // Cấu hình xác thực Google ID token với Client ID của bạn
             var settings = new GoogleJsonWebSignature.ValidationSettings()
@@ -171,10 +366,9 @@ namespace brandportal_dotnet.Controllers.Auth
                 var login = new LoginDto
                 {
                     Password = payload.Subject,
-                    Phone = user.Phone,
                     Email = user.Email,
                 };
-                return Ok(await AuthenticateUser(login));
+                return await AuthenticateUser(login);
             }
             else
             {
@@ -201,7 +395,6 @@ namespace brandportal_dotnet.Controllers.Auth
                 var login = new LoginDto
                 {
                     Password = newUser.Password,
-                    Phone = newUser.Phone,
                     Email = newUser.Email
                 };
                 var tokenDto = await AuthenticateUser(login);
