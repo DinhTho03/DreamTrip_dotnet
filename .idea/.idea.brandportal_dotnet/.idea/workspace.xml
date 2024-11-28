@@ -10,80 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde81047-81bf-480c-896e-030e74ce4e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Contracts/Account/EmailRegister.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Account/EmailSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Account/Mailrequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/PageBanner/BannerIdDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/PageBanner/PageBannerCreateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/PageBanner/PageBannerDetailDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/PageBanner/PageBannerDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/PageBanner/PageGameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Home/ListBannerDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/GroupPlanDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceTimeLineDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTourismGroup/PagePlaceTourismCreateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTourismGroup/PlaceTourismDetailDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/Home/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/EndpointPage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/NotificationPage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/OtpManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client_secrets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/EditPricePlanDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailChangeDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/TakeNoteDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.metadata.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/brandportal_dotnet.projects.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/FileContentIndex/2f1a68e9-d97d-490e-9094-2bc257a1a668.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/FileContentIndex/6850d524-c778-4fea-a49e-78d5c776994b.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/FileContentIndex/7e9265bd-1e3d-43d2-bfbd-e9fcf12fe098.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/FileContentIndex/cf8c50c1-862f-4679-90fa-d497229a008f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/brandportal_dotnet/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Account/AccountDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Account/AccountDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Account/LoginDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Account/LoginDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTourismGroup/PagePlaceTourismDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTourismGroup/PagePlaceTourismDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/PageBanners/PageBannerGroupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/PageBanners/PageBannerGroupController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Plan/SuggestPlanController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Entities/DayItinerary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Entities/PageBanner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/PageBanner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IService/IPageBanner/IPageBannerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IService/IPageBanner/IPageBannerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IService/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IService/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/MongoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/MongoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/PageBanner/PageBannerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/PageBanner/PageBannerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/refs/System.Formats.Asn1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brandportal_dotnet.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/brandportal_dotnet.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/brandportal_dotnet.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/brandportal_dotnet.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +200,25 @@
       <workItem from="1729834753995" duration="2564000" />
       <workItem from="1729925049716" duration="3356000" />
       <workItem from="1730360473738" duration="5982000" />
-      <workItem from="1730434354146" duration="18230000" />
+      <workItem from="1730434354146" duration="21469000" />
+      <workItem from="1730474584575" duration="639000" />
+      <workItem from="1730549169190" duration="1398000" />
+      <workItem from="1730615043758" duration="3356000" />
+      <workItem from="1730726720872" duration="730000" />
+      <workItem from="1730736265440" duration="645000" />
+      <workItem from="1730788302784" duration="636000" />
+      <workItem from="1730789070065" duration="3456000" />
+      <workItem from="1731082163688" duration="1583000" />
+      <workItem from="1731116751177" duration="3173000" />
+      <workItem from="1731397699157" duration="635000" />
+      <workItem from="1731489759603" duration="1430000" />
+      <workItem from="1732085515760" duration="9431000" />
+      <workItem from="1732171496484" duration="5881000" />
+      <workItem from="1732248003759" duration="10827000" />
+      <workItem from="1732332673395" duration="3379000" />
+      <workItem from="1732520929592" duration="4167000" />
+      <workItem from="1732617917910" duration="2091000" />
+      <workItem from="1732692433321" duration="5935000" />
     </task>
     <servers />
   </component>
@@ -281,5 +247,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#brandportal_dotnet.Contracts.Client.Plan.PlanRequestDto" memberName="Data" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

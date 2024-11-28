@@ -43,7 +43,7 @@ namespace brandportal_dotnet.Controllers.Plan
                 }).Where(input);
 
             var items = query
-                .OrderBy(input)
+                .OrderBy(x => x.Order)
                 .Page(input).ToList();
             var total = query.Count();
 

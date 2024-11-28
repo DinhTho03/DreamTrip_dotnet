@@ -1,14 +1,8 @@
-﻿using brandportal_dotnet.Data.Utils;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-namespace brandportal_dotnet.Data.Entities;
-using brandportal_dotnet.Data.Utils;
-[BsonConllection("detailTripPlan")]
-public class DetailTripPlan
+﻿namespace brandportal_dotnet.Contracts.Client.Plan;
+
+public class PlanDetailChangeDto
 {
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string _Id { get; set; }
+    public string Id { get; set; }
     public double? Lat { get; set; }
     public double? Lng { get; set; }
     public string? Name { get; set; }
@@ -30,4 +24,12 @@ public class DetailTripPlan
     public string? TitleNote { get; set; }
     public string? DescribeNote { get; set; }
     public string? Price { get; set; }
+}
+
+public class PlanDetailChangeDtoResponse
+{
+    public PlanDetailChangeDto[][] PlanDetailAM { get; set; }
+    public PlanDetailChangeDto[][] PlanDetailPM { get; set; }
+    public string[] DateInPlan { get; set; }
+
 }
