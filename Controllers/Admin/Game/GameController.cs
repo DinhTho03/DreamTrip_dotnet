@@ -530,8 +530,9 @@ namespace brandportal_dotnet.Controllers.game
                 arrRewardProgramGame.WinRate = item.WinRate;
                 arrRewardProgramGame.QuantityUnit = item.QuotaChange ?? 1;
                 arrRewardProgramGame.CreatedAt = now;
+                arrRewardProgramGame.IsWin = true;
                 // Id của Point là 66f926f11f4d8fa281acd3d2
-                var arrLoyReward = await _loyRewardService.GetById("66f926f11f4d8fa281acd3d2");
+                var arrLoyReward = await _loyRewardService.GetById("66f926f11f4d8fa281acd3d3");
 
                 if (arrLoyReward != null)
                 {
@@ -729,7 +730,7 @@ namespace brandportal_dotnet.Controllers.game
         public async Task<List<LookupDto>> GetGiftType()
         {
             var query = (from reward in await _loyRewardService.GetAll()
-                where reward.GameWheel == true && reward.IsWin == true
+                where reward.GameWheel == true
                 select new LookupDto
                 {
                     Id = reward._Id,
@@ -763,7 +764,7 @@ namespace brandportal_dotnet.Controllers.game
                 return BadRequest(new
                 {
                     message =
-                        "Bạn chỉ có thể hiển thị game khi game đã có thông tin hiển thị, tỷ lệ thắng giải và giải thưởng.\r\nVui lòng cài đặt đủ thông tin trước khi hiển thị"
+                        "Bạn chỉ có thể hiển thị game khi game đã có tỷ lệ thắng giải và giải thưởng.<br>Vui lòng cài đặt đủ thông tin trước khi hiển thị"
                 });
             }
 
@@ -771,5 +772,8 @@ namespace brandportal_dotnet.Controllers.game
             await _gameService.Update(id, game);
             return Ok();
         }
+        
     }
+    
+    
 }

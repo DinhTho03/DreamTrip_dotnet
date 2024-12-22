@@ -10,6 +10,7 @@ public interface IRepository<T>
     Task<List<T>> GetListById(string id);
     Task<T> FindByProperties(Dictionary<string, object> conditions);
     Task<List<T>> FindListByProperties(Dictionary<string, object> conditions);
+    Task<List<T>> FindListByListId(List<string> ids);
     Task Insert(T item);
     Task<T> Insert(T item, bool autoSave);
     Task Update(string id, T item);

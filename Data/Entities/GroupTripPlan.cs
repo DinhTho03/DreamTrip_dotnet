@@ -20,4 +20,10 @@ public class GroupTripPlan
     public string UserId { get; set; }
     public string Departure { get; set; }
     public string Destination { get; set; }
+    public double? PriceTotal { get; set; }
+    public int? View { get; set; }
+    public DateTime? StartDateShare { get; set; }
+    public DateTime? EndDateShare { get; set; }
+    public string? GroupTripPlanId { get; set; }
+    public string? UserExperienceId { get; set; }
 }

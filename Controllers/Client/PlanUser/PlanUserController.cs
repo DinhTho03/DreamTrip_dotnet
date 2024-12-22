@@ -4,6 +4,8 @@ using brandportal_dotnet.IService;
 using brandportal_dotnet.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
+
 namespace brandportal_dotnet.Controllers.Client.PlanUser;
 
 [Route("[controller]")]
@@ -44,12 +46,16 @@ public class PlanUserController : ControllerBase
             Name = data.NamePlan,
             StartDate = data.StartDate.AddDays(1),
             EndDate = data.EndDate.AddDays(1),
-            UserId = "1",
+            UserId = data.UserId,
             IsExpired = false,
             CreatedAt = DateTime.Now,
             IsPublic = false,
             Departure = data.Departure,
-            Destination = data.Destination
+            Destination = data.Destination,
+            View = 0,
+            GroupTripPlanId = null,
+            UserExperienceId = null,
+            
         };
 
         var groupTripPlanId = await _groupTripPlanService.Insert(groupTripPlan, true);
@@ -276,20 +282,22 @@ public class PlanUserController : ControllerBase
         return Ok(new PlaceTimeLineResponse
         {
             PlaceList = placeList,
-            DateInPlan = dateInPlan
+            DateInPlan = dateInPlan,
+            PriceTotal = groupTripPlan.PriceTotal
         });
     }
 
-    [HttpGet("~/api/plan-user/group")]
-    public async Task<List<LookupDto>> GetGroupTripPlanAsync()
+    [HttpGet("~/api/plan-user/group/{id}")]
+    public async Task<List<GroupTripPlanDto>> GetGroupTripPlanAsync(string id)
     {
         var query = (from trip in await _groupTripPlanService.GetAll()
-            where trip.UserId == "1"
-            select new LookupDto
+            where trip.UserId == id
+            orderby trip.CreatedAt descending 
+            select new GroupTripPlanDto
             {
                 Id = trip._Id,
                 Name = trip.Name,
-                Code = trip.Name
+                IsPublic = trip.IsPublic
             });
 
         return query.ToList();
@@ -421,7 +429,10 @@ public class PlanUserController : ControllerBase
             PlanDetail = placeList,
             DateInPlan = dateInPlan,
             Departure = groupTripPlan.Departure,
-            Destination = groupTripPlan.Destination
+            Destination = groupTripPlan.Destination,
+            PriceTotal = groupTripPlan.PriceTotal,
+            View = groupTripPlan.View,
+            IsPublic = groupTripPlan.IsPublic
         });
     }
 
@@ -463,9 +474,20 @@ public class PlanUserController : ControllerBase
 
         detail.HasExperienced = data.HasExperienced;
         detail.Price = data.Price;
-
         await _detailTripPlanService.Update(detail._Id, detail);
         var groupTripPlan = await _groupTripPlanService.GetById(detail.GroupTripPlanId);
+
+        var conditionDetailPlan = await _detailTripPlanService.FindListByProperties(new Dictionary<string, object>
+        {
+            {
+                "GroupTripPlanId", groupTripPlan._Id
+            }
+        });
+        var total = conditionDetailPlan
+            .Where(x => !string.IsNullOrEmpty(x.Price)) 
+            .Sum(x => double.TryParse(x.Price, out var price) ? price : 0); 
+        groupTripPlan.PriceTotal = total;
+        await _groupTripPlanService.Update(groupTripPlan._Id, groupTripPlan);
         return Ok(new PlanResponse
         {
             Id = groupTripPlan._Id
@@ -596,6 +618,37 @@ public class PlanUserController : ControllerBase
             PlanDetailAM = placeListAM,
             DateInPlan = dateInPlan,
             PlanDetailPM = placeListPM,
+        });
+    }
+    
+    [HttpPut("~/api/plan-user/detail/share/{id}")]
+    public async Task<IActionResult> SharePlanAsync(string id, [FromBody] bool isPublic)
+    {
+        var groupTripPlan = await _groupTripPlanService.GetById(id);
+        if (groupTripPlan == null)
+        {
+            return NotFound(new
+            {
+                message = "Không tìm thấy lịch trình"
+            });
+        }
+
+        if (isPublic)
+        {   
+            groupTripPlan.StartDateShare = DateTime.Now;
+        }
+        else
+        {
+            groupTripPlan.EndDateShare = DateTime.Now;
+        }
+
+        groupTripPlan.IsPublic = isPublic;
+
+        await _groupTripPlanService.Update(groupTripPlan._Id, groupTripPlan);
+
+        return Ok(new PlanResponse
+        {
+            Id = groupTripPlan._Id
         });
     }
 }

@@ -8,6 +8,8 @@ public class PlanRequestDto
     public DateTime EndDate { get; set; }
     public string Departure { get; set; }
     public string Destination { get; set; }
+    public string UserId { get; set; }
+    public double? PriceTotal { get; set; }
 }
 
 public record PlaceListDto
@@ -25,8 +27,6 @@ public record PlaceListDto
     public string? TimeOpen { get; set; }
     public string? TimeClose { get; set; }
     public string? Formatted_address { get; set; }
-    public string? TitleNote { get; set; }
-    public string? DescribeNote { get; set; }
 }
 
 public class UpdatePlanRequestDto
@@ -36,12 +36,12 @@ public class UpdatePlanRequestDto
 
 public record UpdatePlaceListDto
 {
-    public string PlaceId { get; set; }
-    public Geometry Geometry { get; set; }
-    public string Name { get; set; }
-    public string Photos { get; set; }
-    public double Rating { get; set; }
-    public string Distance { get; set; }
+    public string? PlaceId { get; set; }
+    public Geometry? Geometry { get; set; }
+    public string? Name { get; set; }
+    public string? Photos { get; set; }
+    public double? Rating { get; set; }
+    public string? Distance { get; set; }
     public string? Duration { get; set; }
     public int User_ratings_total { get; set; }
     public string? Url { get; set; }

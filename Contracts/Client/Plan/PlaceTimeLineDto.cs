@@ -13,4 +13,5 @@ public class PlaceTimeLineResponse
 {
     public PlaceTimeLineDto[][] PlaceList { get; set; }
     public string[] DateInPlan { get; set; }
+    public double? PriceTotal { get; set; }
 }

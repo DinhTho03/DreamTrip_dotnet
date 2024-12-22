@@ -28,5 +28,7 @@ public record PlanDetailDtoResponse
     public string[] DateInPlan { get; set; }
     public string? Departure { get; set; }
     public string? Destination { get; set; }
-
+    public double? PriceTotal { get; set; }
+    public int? View { get; set; }
+    public bool? IsPublic { get; set; }
 }

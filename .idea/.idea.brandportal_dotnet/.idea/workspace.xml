@@ -10,16 +10,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde81047-81bf-480c-896e-030e74ce4e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/EditPricePlanDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailChangeDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/TakeNoteDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameHistory/PageGameHistoryDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Admin/User/PointUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/FAQ/FAQDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/GameLogDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/GameUserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/ListGameBanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/PlayGameDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/PointDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/OrderInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/PaymentRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/VnPayLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/GroupTripPlanDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/HistoryGameDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/ProFileDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/TransactionDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/UpdateAccountDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/CreatePlanExperienceDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/FilterListUserExperience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/InputUserExperience.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/UserExperienceDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Library/PaymentResponseModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTravel/PlaceTravelDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Plan/PlanExperience/PagePlanExperienceDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Plan/PlanManagement/PageManagementPlanDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/DetailActivityPlanDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsBudgetDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsPublicPlanStatusDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsStatusDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Game/GameHistoryController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTravelController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/PlanExperienceController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/PlanManagementController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Statistics/StatisticsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Client/FAQ/FAQUserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Client/GameUser/GameUserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Client/Payments/PaymentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Client/Payments/PaymentDetailDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/Client/Profile/ProFileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/ActivityPlan.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/GameLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/Payment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Entities/ShareTripPlan.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/VnPayLibrary.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceTimeLineDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceTimeLineDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/PlanSuggestDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/PlanSuggestDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/game/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Game/GameController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/DetailTripPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Account.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IService/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IService/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/MongoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/MongoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
@@ -49,6 +100,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/8486d31e24f30e3fa1809a95699a0adc16f448d7/src/Mvc/Mvc.Core/src/Infrastructure/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/8486d31e24f30e3fa1809a95699a0adc16f448d7/src/Mvc/Mvc.Core/src/Infrastructure/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/coreclr/System.Private.CoreLib/src/System/Runtime/CompilerServices/RuntimeHelpers.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/coreclr/System.Private.CoreLib/src/System/Threading/Monitor.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/GroupJoin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/Join.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Linq/src/System/Linq/SelectMany.cs" root0="SKIP_HIGHLIGHTING" />
@@ -60,15 +112,20 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/AsyncValueTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05490158a17440cdbb77cdfa1390ba025200/44/2612041c/FirebaseStorageOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/155254e6b94c4849ad87cde7adb5383f1f600/af/aba9b19d/GmailService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6bf946539f1b4beb8f11400f7a2ff1f039000/55/1a5fbc5b/GoogleJsonWebSignature.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7b58595ac92140019f29c9a3070318de25a00/4c/452caee7/LookupClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e56533eaa494d00979dee3cc80e1dc1408a0/99/39f5955c/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8abdcbb5fcc64df6970a7bc170085c0b1de908/22/f522d01d/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91b4d69181eb45259a5bc06c5b99a932187000/db/32837e94/MongoCollectionImpl`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9571f79270814f2c9a168986d86c06c48e00/4e/99e88362/PagedResultDto`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bd1154a8c2834548940500226b7d74b784908/da/2a192983/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3edec1170e48a0a2478d8743508635c8e910/98/ecf961a1/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3edec1170e48a0a2478d8743508635c8e910/cc/f365519b/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de3edec1170e48a0a2478d8743508635c8e910/fb/1e3b88a6/StringComparison.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e65a7d50c2604ce08496a4764450f696f9800/67/024b456e/RetryableReadContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1924bbe6078b7b424f2fba02f542a68afaef638eb8f921fb2fec1dffc76/GoogleClientSecrets.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8a429c7bc93ed15716a8e6a3f7b60dce9b59ba84efe83f6baace98a9601c89/EntityNotFoundException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/95b9fc3230762aa0138ca76a6816a9a6118954a12f5255d4a98e97336d8d/UserFriendlyException.cs" root0="SKIP_HIGHLIGHTING" />
@@ -219,6 +276,35 @@
       <workItem from="1732520929592" duration="4167000" />
       <workItem from="1732617917910" duration="2091000" />
       <workItem from="1732692433321" duration="5935000" />
+      <workItem from="1732772147968" duration="5146000" />
+      <workItem from="1732801216915" duration="3108000" />
+      <workItem from="1732859585966" duration="14794000" />
+      <workItem from="1732930151122" duration="14683000" />
+      <workItem from="1733118982378" duration="595000" />
+      <workItem from="1733197067715" duration="12849000" />
+      <workItem from="1733290337044" duration="2995000" />
+      <workItem from="1733382474179" duration="23703000" />
+      <workItem from="1733472807683" duration="3435000" />
+      <workItem from="1733552896899" duration="4576000" />
+      <workItem from="1733575480633" duration="1919000" />
+      <workItem from="1733639800143" duration="2273000" />
+      <workItem from="1733724464786" duration="14428000" />
+      <workItem from="1733797656920" duration="12024000" />
+      <workItem from="1733819542578" duration="10932000" />
+      <workItem from="1733902240552" duration="3913000" />
+      <workItem from="1733987592907" duration="11390000" />
+      <workItem from="1734067594733" duration="9693000" />
+      <workItem from="1734089692227" duration="848000" />
+      <workItem from="1734099497095" duration="2417000" />
+      <workItem from="1734143688540" duration="650000" />
+      <workItem from="1734409353014" duration="12736000" />
+      <workItem from="1734501499799" duration="15118000" />
+      <workItem from="1734576942849" duration="23292000" />
+      <workItem from="1734617923033" duration="2638000" />
+      <workItem from="1734688774735" duration="1489000" />
+      <workItem from="1734695625374" duration="646000" />
+      <workItem from="1734748502127" duration="3898000" />
+      <workItem from="1734835189659" duration="4220000" />
     </task>
     <servers />
   </component>

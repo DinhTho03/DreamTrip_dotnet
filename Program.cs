@@ -62,6 +62,7 @@ builder.Services.AddScoped(typeof(IRepository<FaqGroup>), typeof(MongoRepository
 builder.Services.AddScoped(typeof(IRepository<FaqGroup>), typeof(MongoRepository<FaqGroup>));
 builder.Services.AddScoped(typeof(IRepository<Faq>), typeof(MongoRepository<Faq>));
 builder.Services.AddScoped(typeof(IRepository<Game>), typeof(MongoRepository<Game>));
+builder.Services.AddScoped(typeof(IRepository<Payment>), typeof(MongoRepository<Payment>));
 builder.Services.AddScoped(typeof(IRepository<GameCategory>), typeof(MongoRepository<GameCategory>));
 builder.Services.AddScoped(typeof(IPageBannerRepository<Page>), typeof(PageBannerRepository<Page>));
 builder.Services.AddScoped(typeof(IPageBannerRepository<PageBanner>), typeof(PageBannerRepository<PageBanner>));
@@ -70,13 +71,17 @@ builder.Services.AddScoped(typeof(IRewardProgramRepository<LoyRewardRedeem>),
     typeof(RewardProgramRepository<LoyRewardRedeem>));
 builder.Services.AddScoped(typeof(IRewardProgramRepository<LoyRewardProgram>),
     typeof(RewardProgramRepository<LoyRewardProgram>));
+builder.Services.AddScoped(typeof(IRepository<LoyRewardProgram>),
+    typeof(MongoRepository<LoyRewardProgram>));
 builder.Services.AddScoped(typeof(IRewardProgramRepository<LoyProgram>), typeof(RewardProgramRepository<LoyProgram>));
 builder.Services.AddScoped(typeof(IRewardProgramRepository<LoyRewardProduct>),
     typeof(RewardProgramRepository<LoyRewardProduct>));
 builder.Services.AddScoped(typeof(IRepository<SuggestPlan>), typeof(MongoRepository<SuggestPlan>));
+builder.Services.AddScoped(typeof(IRepository<ActivityPlan>), typeof(MongoRepository<ActivityPlan>));
 builder.Services.AddScoped(typeof(IRepository<Account>), typeof(MongoRepository<Account>));
 builder.Services.AddScoped(typeof(IRepository<Role>), typeof(MongoRepository<Role>));
 builder.Services.AddScoped(typeof(IRepository<GameRate>), typeof(MongoRepository<GameRate>));
+builder.Services.AddScoped(typeof(IRepository<GameLog>), typeof(MongoRepository<GameLog>));
 builder.Services.AddScoped(typeof(IRepository<LoyProgram>), typeof(MongoRepository<LoyProgram>));
 builder.Services.AddScoped(typeof(IRepository<LoyReward>), typeof(MongoRepository<LoyReward>));
 builder.Services.AddScoped(typeof(IRepository<LoyRewardProgramGame>), typeof(MongoRepository<LoyRewardProgramGame>));
@@ -91,6 +96,8 @@ builder.Services.AddScoped(typeof(IRepository<NotificationPage>), typeof(MongoRe
 builder.Services.AddScoped(typeof(IRepository<EndpointPage>), typeof(MongoRepository<EndpointPage>));
 builder.Services.AddScoped(typeof(IRepository<GroupTripPlan>), typeof(MongoRepository<GroupTripPlan>));
 builder.Services.AddScoped(typeof(IRepository<DetailTripPlan>), typeof(MongoRepository<DetailTripPlan>));
+builder.Services.AddScoped(typeof(IRepository<Account>), typeof(MongoRepository<Account>));
+builder.Services.AddScoped(typeof(IRepository<ShareTripPlan>), typeof(MongoRepository<ShareTripPlan>));
 
 
 builder.Services.AddScoped<DatabaseSeeder>();

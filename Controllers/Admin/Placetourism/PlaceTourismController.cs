@@ -65,7 +65,7 @@ public class PlaceTourismController : ControllerBase
     }
 
     [HttpGet("~/api/place-tourism/{id}")]
-    public async Task<PlaceTourismDetailDto> GetFaqDetailAsync(string id)
+    public async Task<PlaceTourismDetailDto> GetPlaceTourismGroupAsync(string id)
     {
         var queryPlaceGroupAsync = await _placeTourismGroupService.GetById(id);
         var query = new PlaceTourismDetailDto
@@ -80,7 +80,7 @@ public class PlaceTourismController : ControllerBase
     }
     
     [HttpGet("~/api/place-tourism/paged/filter-place-tourism-title")]
-    public async Task<List<LookupDto>> GetListFaqGroupsTitleAsync()
+    public async Task<List<LookupDto>> GetListPlaceTourismGroupAsync()
     {
         var query = from a in await _placeTourismCategoryService.GetAll()
             select new LookupDto

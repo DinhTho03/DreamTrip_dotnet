@@ -32,5 +32,6 @@ namespace brandportal_dotnet.Data.Entities
         /// Người xóa
         /// </summary>
         public uint? DeletedBy { get; set; }
+        public int? Point { get; set; }
     }
 }

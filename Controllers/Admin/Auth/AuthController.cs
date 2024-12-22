@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using brandportal_dotnet.Contracts.Admin.User;
 using Google.Apis.Auth.OAuth2;
 using MailKit.Net.Smtp;
 using MailKit.Security;
@@ -332,6 +333,7 @@ namespace brandportal_dotnet.Controllers.Auth
                 Phone = emailUser.Phone,
                 Email = emailUser.Email,
                 Avatar = emailUser.Avatar,
+                Point = emailUser.Point,
             });
         }
 
@@ -386,7 +388,7 @@ namespace brandportal_dotnet.Controllers.Auth
                     FullName = payload.Name,
                     RegisterDate = DateTime.Now,
                     RoleId = roleFilter._Id,
-                    Avatar = payload.Picture,
+                    Avatar = user.Avatar,
                     IsDeleted = false
                 };
 
@@ -402,5 +404,30 @@ namespace brandportal_dotnet.Controllers.Auth
                 return Ok(tokenDto);
             }
         }
+        
+        [HttpGet("~/api/user/point/{userId}")]
+        public async Task<IActionResult> GetPointToPlayGameAsync(string userId)
+        {
+            var user = await _accountService.GetById(userId);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    Message = "User not found"
+                });
+            }
+            
+            var data = new PointUserDto
+            {
+                Id = user._Id,
+                Point = user.Point
+            };
+
+            return Ok(data);
+
+        }
     }
+    
+    
+    
 }

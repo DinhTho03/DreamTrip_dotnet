@@ -53,6 +53,15 @@ public class MongoRepository<T> : IRepository<T>
 
         return _collection.Find(combinedFilter).ToList();
     }
+    
+    public async Task<List<T>> FindListByListId(List<string> ids)
+    {
+        var objectIds = ids.Select(id => ObjectId.Parse(id)).ToList();
+        var filter = Builders<T>.Filter.In("_id", objectIds);
+        return await _collection.Find(filter).ToListAsync();
+    }
+
+
 
     public async Task Insert(T item)
     {
