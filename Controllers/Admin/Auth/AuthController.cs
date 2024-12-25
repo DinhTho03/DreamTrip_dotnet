@@ -69,6 +69,7 @@ namespace brandportal_dotnet.Controllers.Auth
                     RegisterDate = DateTime.Now,
                     IsDeleted = false,
                     LoginDate = DateTime.Now,
+                    Point = 0
                 };
                 await _accountService.Insert(dataUser);
                 var user = new LoginDto
@@ -389,7 +390,8 @@ namespace brandportal_dotnet.Controllers.Auth
                     RegisterDate = DateTime.Now,
                     RoleId = roleFilter._Id,
                     Avatar = user.Avatar,
-                    IsDeleted = false
+                    IsDeleted = false,
+                    Point = 0
                 };
 
                 await _accountService.Insert(newUser);

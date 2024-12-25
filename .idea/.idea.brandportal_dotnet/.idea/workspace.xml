@@ -10,74 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde81047-81bf-480c-896e-030e74ce4e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/Games/GameHistory/PageGameHistoryDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Admin/User/PointUserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/FAQ/FAQDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/GameLogDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/GameUserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/ListGameBanner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/PlayGameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/GameUser/PointDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/OrderInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/PaymentRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Payment/VnPayLibrary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Plan/GroupTripPlanDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/HistoryGameDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/ProFileDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/TransactionDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/Profile/UpdateAccountDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/CreatePlanExperienceDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/FilterListUserExperience.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/InputUserExperience.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Client/UserExperience/UserExperienceDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Library/PaymentResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/PlaceTourism/PlaceTravel/PlaceTravelDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Plan/PlanExperience/PagePlanExperienceDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Plan/PlanManagement/PageManagementPlanDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/DetailActivityPlanDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsBudgetDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsPublicPlanStatusDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contracts/Statistics/StatisticsStatusDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Game/GameHistoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTravelController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/PlanExperienceController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/PlanManagementController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/Statistics/StatisticsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/FAQ/FAQUserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/GameUser/GameUserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/Payments/PaymentController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/Payments/PaymentDetailDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Client/Profile/ProFileController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/ActivityPlan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/GameLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/Payment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Entities/ShareTripPlan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/VnPayLibrary.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.brandportal_dotnet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Account/UserDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceListDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceTimeLineDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlaceTimeLineDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Client/Plan/PlanDetailDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/PlanSuggestDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Contracts/Plan/SuggestPlan/PlanSuggestDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Auth/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Placetourism/PlaceTourismController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Plan/SuggestPlanController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/game/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/Game/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/GameUser/GameUserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/GameUser/GameUserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/PlanUser/PlanUserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Client/UserExperience/UserExperienceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Client/UserExperience/UserExperienceController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Entities/GroupTripPlan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Extensions/DatabaseSeeder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IService/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IService/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/MongoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/MongoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/brandportal_dotnet.sourcelink.json" afterDir="false" />
@@ -305,6 +249,8 @@
       <workItem from="1734695625374" duration="646000" />
       <workItem from="1734748502127" duration="3898000" />
       <workItem from="1734835189659" duration="4220000" />
+      <workItem from="1734858760712" duration="1840000" />
+      <workItem from="1735019305357" duration="4845000" />
     </task>
     <servers />
   </component>

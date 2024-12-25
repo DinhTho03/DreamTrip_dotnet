@@ -14,12 +14,16 @@ public class PlanUserController : ControllerBase
 {
     private readonly IRepository<GroupTripPlan> _groupTripPlanService;
     private readonly IRepository<DetailTripPlan> _detailTripPlanService;
+    private readonly IRepository<Account> _accountService;
 
     public PlanUserController(IRepository<GroupTripPlan> groupTripPlanService,
-        IRepository<DetailTripPlan> detailTripPlanService)
+        IRepository<DetailTripPlan> detailTripPlanService,
+        IRepository<Account> accountService)
     {
         _groupTripPlanService = groupTripPlanService;
         _detailTripPlanService = detailTripPlanService;
+        _accountService = accountService;
+        
     }
 
     [HttpPost("~/api/plan-user/manager/paged")]
@@ -58,6 +62,23 @@ public class PlanUserController : ControllerBase
             
         };
 
+        var User = await _accountService.GetById(data.UserId);
+        if (User == null)
+        {
+            return NotFound(new
+            {
+                message = "Không tìm thấy người dùng"
+            });
+        }
+        if (User.Point < 5)
+        {
+            BadRequest(new
+            {
+                message = "Số đậu của bạn không đủ"
+            });
+        }
+        User.Point -= 5;
+        await _accountService.Update(User._Id, User);
         var groupTripPlanId = await _groupTripPlanService.Insert(groupTripPlan, true);
 
         foreach (var items in data.Data.Select((items, index) => new { items, numberDay = index + 1 }))

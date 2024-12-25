@@ -234,6 +234,13 @@ public class UserExperienceController : ControllerBase
         var saveGroupTrip = await _groupTripPlanService.Insert(newGroupTripPlan, true);
         groupTrip.View += 1;
         UserExperience.Point += 3;
+        if (User.Point < 5)
+        {
+            BadRequest(new
+            {
+                message = "Số đậu không đủ"
+            });
+        }
         User.Point -= 5;
         await _groupTripPlanService.Update(groupTrip._Id, groupTrip);
         await _accountService.Update(UserExperience._Id, UserExperience);

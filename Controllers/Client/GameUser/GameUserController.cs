@@ -115,7 +115,7 @@ public class GameUserController : ControllerBase
 
         if (user.Point < rewardProgram.Point)
         {
-            return BadRequest(new { message  = "Số điểm không đủ"
+            return BadRequest(new { message  = "Số đậu của bạn không đủ"
             });
         }
 
