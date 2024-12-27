@@ -16,7 +16,7 @@ public class PaymentController : ControllerBase
     private readonly string vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
     private readonly string vnp_TmnCode = "NFDUTT48"; // Mã website của bạn
     private readonly string vnp_HashSecret = "6OEPJC51AMC1U29T8EPJBB0G0IJAIH7T"; // Chuỗi mã hóa bí mật
-    private readonly string urlCallBack = "http://localhost:4200/profile/desposit"; // Chuỗi mã hóa bí mật
+    private readonly string urlCallBack = "http://dreamtrip.site/profile/desposit"; // Chuỗi mã hóa bí mật
     private readonly IRepository<Account> _account;
     private readonly IRepository<Payment> _payment;
 
